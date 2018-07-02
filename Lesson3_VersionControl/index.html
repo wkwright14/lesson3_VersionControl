@@ -41,19 +41,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#topic1">Highlight #1</a>
+                        <a href="#topic1">Version Control</a>
                     </li>
                     <li>
-                        <a href="#topic2">Hightlight #2</a>
+                        <a href="#topic2">Git History</a>
                     </li>
                     <li>
-                        <a href="#topic3">Hightlight #3</a>
+                        <a href="#topic3">Git Basics</a>
                     </li>
                     <li>
-                        <a href="#topic4">Hightlight #4</a>
+                        <a href="#topic4">Git's Stages</a>
                     </li>
                     <li>
-                        <a href="#topic5">Hightlight #5</a>
+                        <a href="#topic5">Git Repositories</a>
                     </li>
                 </ul>
             </div>
@@ -67,7 +67,7 @@
         <div class="headline">
             <div class="container">
                 <h2>Lesson 3 Highlights</h2>
-                <h3>INSERT YOUR NAME</h3>
+                <h3>Whitney Wright</h3>
             </div>
         </div>
     </header>
@@ -79,55 +79,55 @@
 
         <!-- First Featurette -->
         <div class="featurette" id="topic1">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">Highlight #1
-                <span class="text-muted">Topic 1 Header</span>
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/versioncontrol.jpg">
+            <h2 class="featurette-heading">Version Control
+                <span class="text-muted">What is it</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Version control allows developers to keep track of multiple versions and configurations within a software system. A version control system allows the user to see what changes were made to a file, what differences there are now, when the changes were made, who made the changes and also merge the changes. Multiple team members can also work on the files using version control because it requires that the user check a file out and then commit the changes back to the main repository. This way, is it impossible for two team members to be working on the same file and also prevent overwriting files. Version Control Systems are beneficial because files cannot be overwritten; people can work on the same files at the same time without messing up each other’s work, there is one common location called a repository that houses all the files in a central location; backs up files so no project is lost; and allows users to go back to older versions of the files if necessary. There are two types of repositories used in version control: a remote repository and a local repository. Both repositories allow changes to be recorded and tracked to keep a log of various versions of the tiles or directories housed within the repository. A remote repository is located on a remote server and shared amongst a team; a local repository is located on a local machine and is only accessible by the user of the machine. To create a local repository, a developer can either create a new repository or create a copy of an existing remote repository and place it on the local repository.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
         <div class="featurette" id="topic2">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">Highlight #2
-                <span class="text-muted">Topic 2 Header</span>
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/git.png">
+            <h2 class="featurette-heading">Git
+                <span class="text-muted">What it is and history</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Git is a distributed open source version control system, which means that every user also has a local repository on their own machine and can work offline, there are no distinct points of failure, the processes run quickly, and files cannot be overwritten on a shared repository. Git’s history begins in 1991 as the Linux kernel open source software project and then dispersed as patches and stored files as it developed. By 2002, the project began using a registered DVCS, BitKeeper. However, within three years the relationship between the two companies soured, and BitKeeper no longer allowed Linux kernel to use the service free. This prompted Linux kernel, specifically the creator of Linus kernel, Linus Torvalds, to create their own but similar tool, which is now Git. What makes Git stand out against over version control systems is that it stores data differently; most version control systems track file-based changes whereas every time a user commits on Git, it records how all of the files look at that moment and saves it as a reference point. If things have not changed since the last commit then Git does not waste energy or efficiency on saving the committed point-in-time. Ultimately, it operates like a small filesystem.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
         <div class="featurette" id="topic3">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">Highlight #3
-                <span class="text-muted">Topic 3 Header</span>
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/gitcat.png">
+            <h2 class="featurette-heading">Git
+                <span class="text-muted">The Basics</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead"> Git uses only local files, so nothing is needed from other computers in a user’s network, which means that it is very quick. This is possible because everything that was ever done to the project is on the local disk rather than pulling from other places. It also means that even changes made months ago can be pulled quickly and locally rather than going through a middle man. All work can be done on the local copy and then later uploaded when a user has internet access. Git check sums everything, or the use of a digit to represent the sum of the correct digits in stored or transmitted data that can be used as a reference for comparison later; Git uses a SHA-1 hash for check summing, or a 40-character line of hexadecimal characters calculated by the contents or structure of a file in Git. This is especially helpful because no file can be changed without Git recording it. Instead of names, Git uses a SHA-1 hash for everything. Ultimately, items in Git cannot be erased and no error is ever permanent, giving the user the freedom to experiment and make changes without losing the older version. There are three sections of a Git project: the Git directory, the working tree, and the staging area.</p>
         </div>
         
         <hr class="featurette-divider">
         
        <!-- Fourth Featurette -->
         <div class="featurette" id="topic4">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">Highlight #4
-                <span class="text-muted">Topic 4 Header</span>
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/gitstages.png">
+            <h2 class="featurette-heading">Git's Stages
+                <span class="text-muted">What they are and how they work</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">The three sections of a Git project all work together. Git uses a working tree to checkout files a user wishes to work on. The Git directory stores both the metadata and object database of a project. When a repository is cloned, this is what is copied. The working tree is a single checkout of one version of the project, which are pulled from the Git database and then made available on a user’s disk to use. The staging area is a file that keeps information about what will a part of the next commit a user enters. Working with Git can be broken down into three steps: changing files in the working tree, the user decides which changes are to be a part of the next commit and then only those changes are added to the staging area, and then the commit of the staging area is recorded permanently in the user’s Git directory. Git then has three stages that a file can be in: committed, modified, and staged. If a file is in the Git directory, it is committed. If it was changed and put in the staging area, it is staged. If it was changed since its check out but is not yet staged, it is modified.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Fifth Featurette -->
         <div class="featurette" id="topic5">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">Highlight #5
-                <span class="text-muted">Topic 5 Header</span>
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/gitrepository.png">
+            <h2 class="featurette-heading">Git Repositories
+                <span class="text-muted">How to obtain</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Git repositories can be obtained in two ways: a user can take a local directory not under version control and turn it into a Git repository or clone a current Git repository. By going to a project’s directory and commanding it from the user’s local machine a subdirectory is made with .git at the end of it; this holds all of the repository files. These items can be version controlled by performing an initial commit, which now makes them tracked files. However, if the user already has a Git repository and they then want to make a copy of it, then they can simply use the clone command; this differs from checking out a file because it is not being pulled as a working project but instead all of the data on the server. By using the clone command, a .git directory is placed inside the newly-created directory, takes all of the data for that repository, and then checks out the most current version as a working copy. If then a user wishes to clone the repository into a different directory, they simply use the same clone command but add the new directory name on the end of the command.</p>
         </div>
 
         <hr class="featurette-divider">
